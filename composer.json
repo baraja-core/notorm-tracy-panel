@@ -1,40 +1,40 @@
 {
-	"name": "zemistr/notorm-tracy-panel",
-	"description": "NotORM panel for Tracy",
-	"keywords": [
-		"notorm",
-		"tracy",
-		"debug",
-		"debugging"
-	],
-	"homepage": "http://github.com/zemistr/notorm-tracy-panel",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Martin Zeman (Zemistr)",
-			"homepage": "http://zemistr.eu"
-		}
-	],
-	"require": {
-		"php": ">=7.1.0",
-		"vrana/notorm": "dev-master",
-		"nette/utils": "^3.0",
-		"tracy/tracy": "^2.6"
-	},
-	"require-dev": {
-		"phpstan/phpstan": "^0.12.18",
-		"phpstan/phpstan-nette": "^0.12.6",
-		"symplify/easy-coding-standard": "^9.3"
-	},
-	"autoload": {
-		"classmap": [
-			"src/"
-		]
-	},
-	"scripts": {
-		"phpstan": [
-			"vendor/bin/phpstan analyse src -c phpstan.neon --level 6 --no-progress"
-		]
-	},
-	"minimum-stability": "stable"
+  "name": "zemistr/notorm-tracy-panel",
+  "description": "NotORM panel for Tracy",
+  "keywords": [
+    "notorm",
+    "tracy",
+    "debug",
+    "debugging"
+  ],
+  "homepage": "http://github.com/zemistr/notorm-tracy-panel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Martin Zeman (Zemistr)",
+      "homepage": "http://zemistr.eu"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "vrana/notorm": "dev-master",
+    "nette/utils": "^3.0",
+    "tracy/tracy": "^2.6"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^0.12.18",
+    "phpstan/phpstan-nette": "^0.12.6",
+    "symplify/easy-coding-standard": "^9.3"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "scripts": {
+    "phpstan": [
+      "vendor/bin/phpstan analyse src -c phpstan.neon --level 6 --no-progress"
+    ]
+  },
+  "minimum-stability": "stable"
 }
